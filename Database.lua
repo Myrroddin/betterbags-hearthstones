@@ -90,6 +90,9 @@ if isMainline then
     database[199778]    = nil       -- Teleport Scroll: Undercity Zepplin Tower
     database[200068]    = nil       -- Teleport Scroll: Shattrath City
 
+    -- please note that Improved Flightmaster Whistle, itemID: 158897 is not a valid item in the game
+    -- Wowhead lists it, yet it shares the same itemID (141605) as the regular Flightmaster Whistle
+
     -- mainline items
     database[58487]     = true      -- Potion of Deepholm
     database[61379]     = true      -- Gidwin's Hearthstone
@@ -151,7 +154,6 @@ if isMainline then
     database[144392]    = true      -- Pugilist's Powerful Punching Ring (Horde)
     database[150733]    = true      -- Scroll of Town Portal (Ar'gorok in Arathi)
     database[151652]    = true      -- Wormhole Generator: Argus
-    database[158897]    = true      -- Improved Flight Master's Whistle
     database[159224]    = true      -- Zuldazar Hearthstone
     database[160219]    = true      -- Scroll of Town Portal (Stromgarde in Arathi)
     database[162973]    = true      -- Greatfather Winter's Hearthstone
