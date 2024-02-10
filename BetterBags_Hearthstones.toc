@@ -22,8 +22,8 @@
 ## X-Category: Bags & Inventory
 ## Dependencies: BetterBags
 ## X-Curse-Project-ID: 973173
-## X-WoWI-ID: 24173
-## X-Wago-ID: 25NRRwN3
+## X-WoWI-ID: 26689
+## X-Wago-ID: QKywxnN7
 
 Database.lua
 Core.lua
