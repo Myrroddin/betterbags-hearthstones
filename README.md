@@ -1,5 +1,5 @@
-# betterbags-hearthstones
-Plugin module for World of Warcraft AddOn: BetterBags that sorts all items that provides "hearthing" mechanics.
+# BetterBags - Hearthstones
+Plugin module for the World of Warcraft AddOn [BetterBags](https://www.curseforge.com/wow/addons/better-bags) that sorts all items that provide "hearthing" mechanics into a virtual group.
 
 ## World of Warcraft Supported Versions
 
@@ -15,3 +15,9 @@ Just like [AdiBags_Hearthstones](https://www.curseforge.com/wow/addons/adibags-h
 - Curseforge
 - Wago AddOns
 - Wowinterface
+
+## Incompatible BetterBags Modules
+
+- BetterBags - Teleports
+
+Use either the Teleports module or the Hearthstones module, not both. The Hearthstones module supports more items and is compatible with all WoW versions. The Hearthstones module will wipe and remove any items added to the Teleports module but does not disable the Teleports module. You must delete your choice of module from the `World of Warcraft\_game_version_\Interface\AddOns\` folder, keeping the module you want. You can use an AddOn manager app to delete the unwanted AddOn.
