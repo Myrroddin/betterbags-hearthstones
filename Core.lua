@@ -13,7 +13,6 @@ local _, addon = ...
 local database = addon.db
 
 -- start fresh, delete all items in the category; does not delete the category itself
-categories:WipeCategory(L:G("Teleporters"))
 categories:WipeCategory(L:G(TUTORIAL_TITLE31))
 
 -- create a category and populate with itemIDs
