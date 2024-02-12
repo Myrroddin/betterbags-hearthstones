@@ -12,7 +12,7 @@ Just like [AdiBags_Hearthstones](https://www.curseforge.com/wow/addons/adibags-h
 
 ## Downloads
 
-- [Curseforge](https://legacy.curseforge.com/wow/addons/betterbags-hearthstones)
+- [Curseforge](https://www.curseforge.com/wow/addons/betterbags-hearthstones)
 - [Wago AddOns](https://addons.wago.io/addons/betterbags-hearthstones)
 - [Wowinterface](https://www.wowinterface.com/downloads/info26689-BetterBags-Hearthstones.html)
 
