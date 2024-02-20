@@ -50,9 +50,9 @@ if isWrath or isMainline then
     database[38685]     = true      -- Teleport Scroll: Zul'Farrak
     database[40585]     = true      -- Signet of the Kirin Tor
     database[40586]     = true      -- Band of the Kirin Tor
+    database[43824]     = true      -- The Schools of Arcane Magic - Mastery (spires atop the Violet Citadel)
     database[44314]     = true      -- Scroll of Recall II
     database[44315]     = true      -- Scroll of Recall III
-    database[43824]     = true      -- The Schools of Arcane Magic - Mastery (spires atop the Violet Citadel)
     database[44934]     = true      -- Loop of the Kirin Tor
     database[44935]     = true      -- Ring of the Kirin Tor
     database[45688]     = true      -- Inscribed Band of the Kirin Tor
