@@ -173,6 +173,7 @@ if isMainline then
     database[168907]    = true      -- Holographic Digitalization Hearthstone
     database[169064]    = true      -- Montebank's Colorful Cloak
     database[169297]    = true      -- Stormpike Insignia
+    database[169862]    = true      -- Alluring Bloom
     database[172179]    = true      -- Eternal Traveler's Hearthstone
     database[172203]    = true      -- Cracked Hearthstone
     database[172924]    = true      -- Wormhole Generator: Shadowlands
