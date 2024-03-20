@@ -209,6 +209,7 @@ if isMainline then
     database[205456]    = true      -- Lost Dragonscale (1)
     database[205458]    = true      -- Lost Dragonscale (2)
     database[211788]    = true      -- Tess's Peacebloom
+    database[212337]    = true      -- Stone of the Hearth
 end
 
 -- return data to main file
