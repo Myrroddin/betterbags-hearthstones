@@ -1,6 +1,5 @@
 package-as: BetterBags_Hearthstones
 wowi-archive-previous: no
-enable-toc-creation: yes
 
 required-dependencies:
   - better-bags

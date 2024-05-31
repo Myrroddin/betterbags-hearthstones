@@ -1,6 +1,4 @@
-## Interface: 100207
-## Interface-Cata: 40400
-## Interface-Classic: 11502
+## Interface: 11502, 40400, 100207
 ## Title: BetterBags - Hearthstones
 ## Notes: Adds various hearthing items to BetterBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU")@
