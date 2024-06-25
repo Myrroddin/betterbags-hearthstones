@@ -12,7 +12,7 @@ local L = BetterBags:GetModule("Localization")
 local _, addon = ...
 
 -- wipe Teleporters category, as it does slmost the same thing, just with fewer items in its DB
-categories:WipeCatagory("Teleporters")
+categories:WipeCategory("Teleporters")
 
 -- create a category and populate with itemIDs
 for itemID in pairs(addon.db) do
