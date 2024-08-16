@@ -216,7 +216,11 @@ if isMainline then
     database[211788]    = true      -- Tess's Peacebloom
     database[212337]    = true      -- Stone of the Hearth
     database[219222]    = true      -- Time-Lost Artifact
+    database[221965]    = true      -- Prototype: Wormhole Generator: Khaz Algar
+    database[221966]    = true      -- Wormhole Generator: Khaz Algar
     database[223988]    = true      -- Dalaran Hearthstone (1 charge quest item)
+    database[227669]    = true      -- Teleportation Scroll (1 charge quest item)
+    database[228940]    = true      -- Notorious Thread's Hearthstone
 end
 
 -- return data to main file

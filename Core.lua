@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-field
 ---@class BetterBags: AceAddon
 local BetterBags = LibStub("AceAddon-3.0"):GetAddon("BetterBags")
 assert(BetterBags, "BetterBags_Hearthstones requires BetterBags")
