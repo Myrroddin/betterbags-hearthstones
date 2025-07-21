@@ -144,7 +144,7 @@ if isMainline then
     database[138448]    = true      -- Emblem of Margoss
     database[139590]    = true      -- Scroll of Teleport: Ravenholdt
     database[139599]    = true      -- Empowered Ring of the Kirin Tor
-    database[140192]    = true      -- Dalaran Hearthstone
+    database[140192]    = true      -- Dalaran Hearthstone (toy)
     database[140493]    = true      -- Adept's Guide to Dimensional Rifting
     database[141013]    = true      -- Scroll of Town Portal: Shala'nir
     database[141014]    = true      -- Scroll of Town Portal: Sashj'tar
@@ -229,6 +229,7 @@ if isMainline then
     database[223988]    = true      -- Dalaran Hearthstone (1 charge quest item)
     database[227669]    = true      -- Teleportation Scroll (1 charge quest item)
     database[228940]    = true      -- Notorious Thread's Hearthstone
+    database[236687]    = true      -- Explosive Hearthstone
 end
 
 -- return data to main file
