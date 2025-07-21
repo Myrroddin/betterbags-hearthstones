@@ -1,6 +1,6 @@
 --[[
 BetterBags_Hearthstones - Adds various hearthing items to BetterBags virtual groups
-Copyright © 2024 Paul Vandersypen, All Rights Reserved
+Copyright © 2024-2025 Paul Vandersypen, All Rights Reserved
 ]]--
 
 assert(LibStub("AceAddon-3.0"):GetAddon("BetterBags"), "BetterBags_Hearthstones requires BetterBags")
@@ -9,7 +9,7 @@ assert(LibStub("AceAddon-3.0"):GetAddon("BetterBags"), "BetterBags_Hearthstones 
 local _, addon = ...
 
 -- need to check game version
-local isCata = WOW_PROJECT_ID == WOW_PROJECT_CATACLYSM_CLASSIC
+local isMists = WOW_PROJECT_ID == WOW_PROJECT_MISTS_CLASSIC
 local isMainline = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
 local database = {}
@@ -37,8 +37,8 @@ database[22630] = true          -- Atiesh, Greatstaff of the Guardian (Warlock)
 database[22631] = true          -- Atiesh, Greatstaff of the Guardian (Priest)
 database[22632] = true          -- Atiesh, Greatstaff of the Guardian (Druid)
 
--- add TBC, Wrath and Cataclysm items to Cataclysm and mainline
-if isCata or isMainline then
+-- add items for all Classic versions and retail
+if isMists or isMainline then
     database[28585]     = true      -- Ruby Slippers
     database[29796]     = true      -- Socrethar's Teleportation Stone
     database[30542]     = true      -- Dimensional Ripper - Area 52
@@ -86,28 +86,6 @@ if isCata or isMainline then
     database[65360]     = true      -- Cloak of Coordination: Stormwind
     database[68808]     = true      -- Hero's Hearthstone
     database[68809]     = true      -- Veteran's Hearthstone
-    database[184871]    = true      -- Dark Portal (TBC)
-    database[199335]    = true      -- Teleport Scroll: Menethil Harbor
-    database[199336]    = true      -- Teleport Scroll: Stormwind Harbor
-    database[199777]    = true      -- Teleport Scroll: Orgrimmar Zepplin Tower
-    database[199778]    = true      -- Teleport Scroll: Undercity Zepplin Tower
-    database[200068]    = true      -- Teleport Scroll: Shattrath City
-end
-
--- add everything else for mainline
-if isMainline then
-    -- delete these items, since they don't exist
-    database[184871]    = nil       -- Dark Portal (TBC)
-    database[199335]    = nil       -- Teleport Scroll: Menethil Harbor
-    database[199336]    = nil       -- Teleport Scroll: Stormwind Harbor
-    database[199777]    = nil       -- Teleport Scroll: Orgrimmar Zepplin Tower
-    database[199778]    = nil       -- Teleport Scroll: Undercity Zepplin Tower
-    database[200068]    = nil       -- Teleport Scroll: Shattrath City
-
-    -- please note that Improved Flightmaster Whistle, itemID: 158897 is not a valid item in the game
-    -- Wowhead lists it, yet it shares the same itemID (141605) as the regular Flightmaster Whistle
-
-    -- mainline items
     database[87215]     = true      -- Wormhole Generator: Pandaria
     database[87548]     = true      -- Lorewalker's Lodestone
     database[92510]     = true      -- Vol'jin's Hearthstone
@@ -117,6 +95,36 @@ if isMainline then
     database[95567]     = true      -- Kirin Tor Beacon
     database[95568]     = true      -- Sunreaver Beacon
     database[103678]    = true      -- Time-Lost Artifact (trinket)
+    database[184871]    = true      -- Dark Portal (TBC)
+    database[199335]    = true      -- Teleport Scroll: Menethil Harbor
+    database[199336]    = true      -- Teleport Scroll: Stormwind Harbor
+    database[199777]    = true      -- Teleport Scroll: Orgrimmar Zepplin Tower (Borean Tundra)
+    database[199778]    = true      -- Teleport Scroll: Undercity Zepplin Tower (Howling Fjord)
+    database[200068]    = true      -- Teleport Scroll: Shattrath City
+    database[210046]    = true      -- Teleport Scroll: Northrend (Alliance)
+    database[210047]    = true      -- Teleport Scroll: Northrend (Horde)
+    database[224452]    = true      -- Teleport Scroll: Stormwind
+    database[224458]    = true      -- Teleport Scroll: Orgrimmar
+end
+
+-- add everything else for mainline
+if isMainline then
+    -- delete these items, they were removed for Retail
+    database[184871]    = nil       -- Dark Portal (TBC)
+    database[199335]    = nil       -- Teleport Scroll: Menethil Harbor
+    database[199336]    = nil       -- Teleport Scroll: Stormwind Harbor
+    database[199777]    = nil       -- Teleport Scroll: Orgrimmar Zepplin Tower (Borean Tundra)
+    database[199778]    = nil       -- Teleport Scroll: Undercity Zepplin Tower (Howling Fjord)
+    database[200068]    = nil       -- Teleport Scroll: Shattrath City
+    database[210046]    = nil       -- Teleport Scroll: Northrend (Alliance)
+    database[210047]    = nil       -- Teleport Scroll: Northrend (Horde)
+    database[224452]    = nil       -- Teleport Scroll: Stormwind
+    database[224458]    = nil       -- Teleport Scroll: Orgrimmar
+
+    -- please note that Improved Flightmaster Whistle, itemID: 158897 is not a valid item in the game
+    -- Wowhead lists it, yet it shares the same itemID (141605) as the regular Flightmaster Whistle
+
+    -- mainline items
     database[110560]    = true      -- Garrison Hearthstone
     database[112059]    = true      -- Wormhole Centrifuge
     database[117389]    = true      -- Draenor Archaeologist's Lodestone
