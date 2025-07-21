@@ -1,4 +1,4 @@
-## Interface: 11503, 40400, 110002
+## Interface: 11507, 50500, 110107
 ## Title: BetterBags - Hearthstones
 ## Notes: Adds various hearthing items to BetterBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU")@
@@ -16,7 +16,7 @@
 ## Version: @project-version@
 ## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
 ## X-Date: @project-date-iso@
-## X-License: Copyright (c) 2024 Paul Vandersypen. All Rights Reserved
+## X-License: Copyright (c) 2024-2025 Paul Vandersypen. All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: BetterBags
 ## X-Curse-Project-ID: 973173

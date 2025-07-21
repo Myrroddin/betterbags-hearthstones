@@ -3,3 +3,6 @@ wowi-archive-previous: no
 
 required-dependencies:
   - better-bags
+
+ignore:
+  - README.md
