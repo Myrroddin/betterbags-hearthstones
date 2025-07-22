@@ -48,6 +48,7 @@ if isMists or isMainline then
     database[37118]     = true      -- Scroll of Recall
     database[37863]     = true      -- Direbrew's Remote
     database[38685]     = true      -- Teleport Scroll: Zul'Farrak
+    database[40582]     = true      -- Scourgestone
     database[40585]     = true      -- Signet of the Kirin Tor
     database[40586]     = true      -- Band of the Kirin Tor
     database[43824]     = true      -- The Schools of Arcane Magic - Mastery (spires atop the Violet Citadel)
