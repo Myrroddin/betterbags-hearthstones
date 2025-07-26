@@ -208,8 +208,10 @@ if isMainline then
     database[190196]    = true      -- Enlightened Hearthstone
     database[190237]    = true      -- Broker Translocation Matrix
     database[191029]    = true      -- Lilian's Hearthstone
+    database[193000]    = true      -- Ring-Bound Hourglass
     database[193588]    = true      -- Timewalker's Hearthstone
     database[198156]    = true      -- Wyrmhole Generator: Dragon Isles
+    database[200613]    = true      -- Aylaag Windstone Fragment
     database[200630]    = true      -- Ohn'ir Windsage's Hearthstone
     database[201957]    = true      -- Thrall's Hearthstone
     database[202046]    = true      -- Lucky Tortollan Charm
@@ -230,6 +232,15 @@ if isMainline then
     database[223988]    = true      -- Dalaran Hearthstone (1 charge quest item)
     database[227669]    = true      -- Teleportation Scroll (1 charge quest item)
     database[228940]    = true      -- Notorious Thread's Hearthstone
+    database[228996]    = true      -- Relic of Crystal Connections
+    database[230850]    = true      -- Delve-O Bot 7001
+    database[234389]    = true      -- Gallagio Loyalty Rewards Card: Silver
+    database[234390]    = true      -- Gallagio Loyalty Rewards Card: Gold
+    database[234391]    = true      -- Gallagio Loyalty Rewards Card: Platinum
+    database[234392]    = true      -- Gallagio Loyalty Rewards Card: Black
+    database[234393]    = true      -- Gallagio Loyalty Rewards Card: Diamond
+    database[234394]    = true      -- Gallagio Loyalty Rewards Card: Legendary
+    database[235016]    = true      -- Redepolyment Module
     database[236687]    = true      -- Explosive Hearthstone
 end
 
