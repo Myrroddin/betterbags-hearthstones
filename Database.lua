@@ -242,6 +242,9 @@ if isMainline then
     database[234394]    = true      -- Gallagio Loyalty Rewards Card: Legendary
     database[235016]    = true      -- Redepolyment Module
     database[236687]    = true      -- Explosive Hearthstone
+    database[243056]    = true      -- Delver's Mana-Bound Ethergate
+    database[245970]    = true      -- P.O.S.T. Master's Express Hearthstone
+    database[246565]    = true      -- Cosmic Hearthstone
 end
 
 -- return data to main file
