@@ -1,4 +1,4 @@
-## Interface: 11507, 50500, 110107
+## Interface: 11507, 50500, 110200
 ## Title: BetterBags - Hearthstones
 ## Notes: Adds various hearthing items to BetterBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU")@
