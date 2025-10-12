@@ -35,3 +35,6 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+**BugSack error capture**
+Paste the error code here, using [Markdown highlighting](https://github.com/im-luka/markdown-cheatsheet). Use `` ```lua``` `` to highlight, please.
