@@ -239,11 +239,14 @@ if isMainline then
 	database[234394]	= true	-- Gallagio Loyalty Rewards Card: Legendary
 	database[235016]	= true	-- Redepolyment Module
 	database[236687]	= true	-- Explosive Hearthstone
+	database[238727]	= true	-- Nostwin's Voucher
 	database[243056]	= true	-- Delver's Mana-Bound Ethergate
 	database[245970]	= true	-- P.O.S.T. Master's Express Hearthstone
 	database[246565]	= true	-- Cosmic Hearthstone
 	database[249299]	= true	-- Black Temple Scroll
+	database[249230]	= true	-- Temple of Zin-Malor Scroll
 	database[249699]	= true	-- Shadowguard Translocator
+	database[250411]	= true	-- Timerunner's Hearthstone
 end
 
 -- return data to main file
