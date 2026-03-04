@@ -1,0 +1,36 @@
+# World of Warcraft addon repository ignore rules
+# Tailored for BigWigs Packager + common local development artifacts.
+
+# OS noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Lua / tooling artifacts
+*.luac
+luac.out
+
+# Local WoW client folders (if this repo is nested in a game install)
+Interface/
+WTF/
+Cache/
+Screenshots/
+Logs/
+Errors/
+
+# BigWigs Packager / release artifacts
+.release/
+dist/
+*.zip
+
+# Test and temporary files
+*.tmp
+*.bak
+*.old

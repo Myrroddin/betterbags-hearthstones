@@ -1,4 +1,4 @@
-## Interface: 11508, 50502, 110205, 120000
+## Interface: 120001, 50503, 20505, 11508
 ## Title: BetterBags - Hearthstones
 ## Notes: Adds various hearthing items to BetterBags virtual groups
 ## Notes-deDE: @localization(locale="deDE")@
@@ -16,9 +16,20 @@
 ## Version: @project-version@
 ## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
 ## X-Date: @project-date-iso@
-## X-License: Copyright (c) 2024-2025 Paul Vandersypen. All Rights Reserved
-## X-Category: Bags & Inventory
+## X-License: Copyright (c) 2024-2026 Paul Vandersypen. All Rights Reserved
+## Category: Inventory
+## Category-deDE: Inventar
+## Category-esES: Inventario
+## Category-esMX: Inventario
+## Category-frFR: Inventaire
+## Category-itIT: Inventario
+## Category-koKR: 소지품
+## Category-ptBR: Inventário
+## Category-ruRU: Инвентарь
+## Category-zhCN: 物品栏
+## Category-zhTW: 物品欄
 ## Dependencies: BetterBags
+## Group: BetterBags
 ## X-Curse-Project-ID: 973173
 ## X-WoWI-ID: 26689
 ## X-Wago-ID: QKywxnN7

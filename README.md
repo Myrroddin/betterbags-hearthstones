@@ -4,8 +4,9 @@ Plugin module for the World of Warcraft AddOn [BetterBags](https://www.curseforg
 ## World of Warcraft Supported Versions
 
 - Classic Era. Includes Classic Era, hardcore, and seasons
+- The Burning Crusade Anniversary
 - Mists of Pandaria Classic
-- Mainline or retail. Currently, that is The War Within
+- Mainline or retail. Currently, that is Midnight
 
 ## Supported Items
 Just like [AdiBags_Hearthstones](https://www.curseforge.com/wow/addons/adibags-hearthstones), items are added by WoW expansion to the virtual groups. Items that do not exist because the expansion doesn't support them are not added. The full list can be [viewed online](https://github.com/Myrroddin/betterbags-hearthstones/blob/main/Database.lua) or with any text editor. I suggest [Notepad++](https://notepad-plus-plus.org/) which will maintain the readability of Database.lua when opening the file directly from the AddOn folder.

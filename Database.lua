@@ -6,6 +6,7 @@ Copyright © 2024-2025 Paul Vandersypen, All Rights Reserved
 local _, addon = ...
 
 -- need to check game version
+local isBCC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 local isMists = WOW_PROJECT_ID == WOW_PROJECT_MISTS_CLASSIC
 local isMainline = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
@@ -34,16 +35,20 @@ database[22630] 	= true	-- Atiesh, Greatstaff of the Guardian (Warlock)
 database[22631] 	= true	-- Atiesh, Greatstaff of the Guardian (Priest)
 database[22632] 	= true	-- Atiesh, Greatstaff of the Guardian (Druid)
 
--- add items for all Classic versions and retail
-if isMists or isMainline then
+-- add items for Burning Crusade Classic, Mists Classic, and retail
+if isBCC or isMists or isMainline then
 	database[28585] 	= true	-- Ruby Slippers
 	database[29796] 	= true	-- Socrethar's Teleportation Stone
 	database[30542] 	= true	-- Dimensional Ripper - Area 52
+	database[30544] 	= true	-- Ultrasafe Transporter - Toshley's Station
 	database[32757] 	= true	-- Blessed Medallion of Karabor
 	database[35230] 	= true	-- Darnarian's Scroll of Teleportation
-	database[36955] 	= true	-- Ultrasafe Transporter - Toshley's Station
-	database[37118] 	= true	-- Scroll of Recall
 	database[37863] 	= true	-- Direbrew's Remote
+end
+
+-- add items for Mists Classic and retail
+if isMists or isMainline then
+	database[37118] 	= true	-- Scroll of Recall
 	database[38685] 	= true	-- Teleport Scroll: Zul'Farrak
 	database[40582] 	= true	-- Scourgestone
 	database[40585] 	= true	-- Signet of the Kirin Tor
