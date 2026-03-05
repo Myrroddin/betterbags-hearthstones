@@ -244,13 +244,23 @@ if isMainline then
 	database[234394]	= true	-- Gallagio Loyalty Rewards Card: Legendary
 	database[235016]	= true	-- Redepolyment Module
 	database[236687]	= true	-- Explosive Hearthstone
+	database[238379]	= true	-- Warping Wise
 	database[238727]	= true	-- Nostwin's Voucher
+	database[239151]	= true	-- Light's Summon
 	database[243056]	= true	-- Delver's Mana-Bound Ethergate
 	database[245970]	= true	-- P.O.S.T. Master's Express Hearthstone
 	database[246565]	= true	-- Cosmic Hearthstone
+	database[248131]	= true	-- Key to the Arcantina
+	database[248485]	= true	-- Wormhole Generator: Quel'thalas
 	database[249230]	= true	-- Temple of Zin-Malor Scroll
 	database[249699]	= true	-- Shadowguard Translocator
 	database[250411]	= true	-- Timerunner's Hearthstone
+	database[252607]	= true	-- Abundant Beacon
+	database[253629]	= true	-- Personal Key to the Arcantina
+	database[257736]	= true	-- Lightcalled Hearthstone
+	database[258736]	= true	-- Scroll of Town Portal: Masters' Perch
+	database[263933]	= true	-- Preyseeker's Hearthstone
+	database[265100]	= true	-- Corewarden's Hearthstone
 end
 
 -- return data to main file
