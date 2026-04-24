@@ -1,4 +1,5 @@
 # BetterBags - Hearthstones
+
 Plugin module for the World of Warcraft AddOn [BetterBags](https://www.curseforge.com/wow/addons/better-bags) that sorts all items that provide "hearthing" mechanics into a virtual group.
 
 ## World of Warcraft Supported Versions
@@ -9,6 +10,7 @@ Plugin module for the World of Warcraft AddOn [BetterBags](https://www.curseforg
 - Mainline or retail. Currently, that is Midnight
 
 ## Supported Items
+
 Just like [AdiBags_Hearthstones](https://www.curseforge.com/wow/addons/adibags-hearthstones), items are added by WoW expansion to the virtual groups. Items that do not exist because the expansion doesn't support them are not added. The full list can be [viewed online](https://github.com/Myrroddin/betterbags-hearthstones/blob/main/Database.lua) or with any text editor. I suggest [Notepad++](https://notepad-plus-plus.org/) which will maintain the readability of Database.lua when opening the file directly from the AddOn folder.
 
 ## Downloads
@@ -28,4 +30,5 @@ Use either the Teleports module or the Hearthstones module, not both. The Hearth
 Neither module should trigger errors nor warnings if you use both; however, your virtual bags will look messy, if not a little silly, with both modules installed.
 
 ## Bugs, Issues, and Improvements
+
 Please use [GitHub's issue tracker](https://github.com/Myrroddin/betterbags-hearthstones/issues) for the project. Thank you!
