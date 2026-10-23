@@ -78,6 +78,11 @@ end
 
 -- add items for Mists Classic and retail
 if isMists or isStandard then
+	-- remove inherited items that no longer provide travel
+	database[9173]		= nil	-- Goblin Transponder
+	database[17191]		= nil	-- Scepter of Celebras
+
+	database[36747] 	= true	-- Surge Needle Teleporter
 	database[37118] 	= true	-- Scroll of Recall
 	database[38685] 	= true	-- Teleport Scroll: Zul'Farrak
 	database[40582] 	= true	-- Scourgestone
@@ -85,7 +90,7 @@ if isMists or isStandard then
 	database[40586] 	= true	-- Band of the Kirin Tor
 	database[43824] 	= true	-- The Schools of Arcane Magic - Mastery (spires atop the Violet Citadel)
 	database[44314] 	= true	-- Scroll of Recall II
-	database[44315] 	= true	 -- Scroll of Recall III
+	database[44315] 	= true	-- Scroll of Recall III
 	database[44934] 	= true	-- Loop of the Kirin Tor
 	database[44935] 	= true	-- Ring of the Kirin Tor
 	database[45688] 	= true	-- Inscribed Band of the Kirin Tor
@@ -106,21 +111,38 @@ if isMists or isStandard then
 	database[52251] 	= true	-- Jaina's Locket
 	database[54452] 	= true	-- Ethereal Portal
 	database[58487] 	= true	-- Potion of Deepholm
+	database[58964] 	= true	-- Chabal's Fetish
 	database[61379] 	= true	-- Gidwin's Hearthstone
+	database[62394] 	= true	-- Fire Portal Controller
 	database[63206] 	= true	-- Wrap of Unity: Stormwind
 	database[63207] 	= true	-- Wrap of Unity: Orgrimmar
 	database[63352] 	= true	-- Shroud of Cooperation: Stormwind
-	database[63353] 	= true	-- Hellscream's Reach Tabard
-	database[63378] 	= true	-- Shroud of Cooperation: Orgrimmar
+	database[63353] 	= true	-- Shroud of Cooperation: Orgrimmar
+	database[63378] 	= true	-- Hellscream's Reach Tabard
 	database[63379] 	= true	-- Baradin's Wardens Tabard
 	database[64457] 	= true	-- The Last Relic of Argus
 	database[64488] 	= true	-- The Innkeeper's Daughter
 	database[65274] 	= true	-- Cloak of Coordination: Orgrimmar
 	database[65360] 	= true	-- Cloak of Coordination: Stormwind
+	database[66061] 	= true	-- Bluescale Sigil
 	database[68808] 	= true	-- Hero's Hearthstone
 	database[68809] 	= true	-- Veteran's Hearthstone
 	database[87215] 	= true	-- Wormhole Generator: Pandaria
 	database[87548] 	= true	-- Lorewalker's Lodestone
+	database[91850] 	= true	-- Orgrimmar Portal Shard
+	database[91860] 	= true	-- Stormwind Portal Shard
+	database[91861] 	= true	-- Thunder Bluff Portal Shard
+	database[91862] 	= true	-- Undercity Portal Shard
+	database[91863] 	= true	-- Silvermoon Portal Shard
+	database[91864] 	= true	-- Ironforge Portal Shard
+	database[91865] 	= true	-- Darnassus Portal Shard
+	database[91866] 	= true	-- Exodar Portal Shard
+	database[92056] 	= true	-- Portal Fuel: Sparkrocket Outpost
+	database[92057] 	= true	-- Portal Fuel: Orgrimmar
+	database[92058] 	= true	-- Portal Fuel: Shrine of Two Moons
+	database[92430] 	= true	-- Portal Reagents: Shrine of Seven Stars
+	database[92431] 	= true	-- Portal Reagents: Stormwind
+	database[92432] 	= true	-- Portal Reagents: Skyfire
 	database[92510] 	= true	-- Vol'jin's Hearthstone
 	database[93672] 	= true	-- Dark Portal (MoP)
 	database[95050] 	= true	-- The Brassiest Knuckle (Brawl'gar Arena)
@@ -128,6 +150,8 @@ if isMists or isStandard then
 	database[95567] 	= true	-- Kirin Tor Beacon
 	database[95568] 	= true	-- Sunreaver Beacon
 	database[103678]	= true	-- Time-Lost Artifact (trinket)
+	database[104110]	= true	-- Curious Bronze Timepiece (Horde)
+	database[104113]	= true	-- Curious Bronze Timepiece (Alliance)
 	database[199335]	= true	-- Teleport Scroll: Menethil Harbor
 	database[199336]	= true	-- Teleport Scroll: Stormwind Harbor
 	database[199777]	= true	-- Teleport Scroll: Orgrimmar Zepplin Tower (Borean Tundra)
