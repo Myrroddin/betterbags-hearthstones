@@ -40,6 +40,13 @@ database[22630] 	= true	-- Atiesh, Greatstaff of the Guardian (Warlock)
 database[22631] 	= true	-- Atiesh, Greatstaff of the Guardian (Priest)
 database[22632] 	= true	-- Atiesh, Greatstaff of the Guardian (Druid)
 
+if isSoD then
+	database[208425]	= true	-- Shiny Archaic Vestige
+	database[216494]	= true	-- Aragriar's Whimsical World Warper
+	database[238734]	= true	-- Tinkerbox: Teleport
+	database[238781]	= true	-- Semisafe Transporter: New Avalon
+end
+
 -- add items for Burning Crusade Classic, Mists Classic, and retail
 if isBCC or isMists or isStandard then
 	database[28585] 	= true	-- Ruby Slippers
