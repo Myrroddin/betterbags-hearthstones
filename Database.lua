@@ -48,13 +48,13 @@ end
 
 -- add items shared by Season of Discovery and Forever
 if isSoD or isForever then
+	database[213548]	= true	-- Scroll of Liminal Passage
 	database[238734]	= true	-- Tinkerbox: Teleport
 	database[238781]	= true	-- Semisafe Transporter: New Avalon
 end
 
 -- add items unique to Forever
 if isForever then
-	database[213548]	= true	-- Scroll of Liminal Passage
 	database[241128]	= true	-- Pile of Portiporters
 	database[260819]	= true	-- EZ-Thro Field Transporter: Gadgetzan
 	database[260820]	= true	-- SAF-T Emergency Ripper: Everlook
@@ -74,6 +74,11 @@ if isBCC or isMists or isStandard then
 	database[35230] 	= true	-- Darnarian's Scroll of Teleportation
 	database[37863] 	= true	-- Direbrew's Remote
 	database[184871]	= true	-- Dark Portal (TBC)
+end
+
+-- add items shared by Burning Crusade Classic and Mists Classic
+if isBCC or isMists then
+	database[260221]	= true	-- Naaru's Embrace
 end
 
 -- add items for Mists Classic and retail
@@ -165,7 +170,9 @@ end
 
 -- add everything else for mainline
 if isStandard then
-	-- delete these items, they were removed for Retail
+	-- remove inherited items unavailable or inactive in Retail
+	database[38685] 	= nil	-- Teleport Scroll: Zul'Farrak
+	database[40582] 	= nil	-- Scourgestone
 	database[184871]	= nil	-- Dark Portal (TBC)
 	database[199335]	= nil	-- Teleport Scroll: Menethil Harbor
 	database[199336]	= nil	-- Teleport Scroll: Stormwind Harbor
@@ -189,10 +196,11 @@ if isStandard then
 	database[118907]	= true	-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
 	database[118908]	= true	-- Pit Fighter's Punching Ring (Brawl'gar Arena)
 	database[119183]	= true	-- Scroll of Risky Recall
+	database[128353]	= true	-- Admiral's Compass
 	database[128502]	= true	-- Hunter's Seeking Crystal
 	database[128503]	= true	 -- Master Hunter's Seeking Crystal
-	database[128353]	= true	-- Admiral's Compass
 	database[129276]	= true	-- Beginner's Guide to Dimensional Rifting
+	database[129929]	= true	-- Ever-Shifting Mirror
 	database[132119]	= true	-- Orgrimmar Portal Stone
 	database[132120]	= true	-- Stormwind Portal Stone
 	database[132517]	= true	-- Intra-Dalaran Wormhole Generator
@@ -201,6 +209,7 @@ if isStandard then
 	database[139590]	= true	-- Scroll of Teleport: Ravenholdt
 	database[139599]	= true	-- Empowered Ring of the Kirin Tor
 	database[140192]	= true	-- Dalaran Hearthstone (toy)
+	database[140324]	= true	-- Mobile Telemancy Beacon
 	database[140493]	= true	-- Adept's Guide to Dimensional Rifting
 	database[141013]	= true	-- Scroll of Town Portal: Shala'nir
 	database[141014]	= true	-- Scroll of Town Portal: Sashj'tar
@@ -216,18 +225,22 @@ if isStandard then
 	database[144341]	= true	-- Rechargeable Reaves Battery
 	database[144391]	= true	-- Pugilist's Powerful Punching Ring (Alliance)
 	database[144392]	= true	-- Pugilist's Powerful Punching Ring (Horde)
+	database[147870]	= true	-- Strange Dimensional Shard
 	database[150733]	= true	-- Scroll of Town Portal (Ar'gorok in Arathi)
+	database[151016]	= true	-- Fractured Necrolyte Skull
 	database[151652]	= true	-- Wormhole Generator: Argus
 	database[159224]	= true	-- Zuldazar Hearthstone
 	database[160219]	= true	-- Scroll of Town Portal (Stromgarde in Arathi)
+	database[162515]	= true	-- Midnight Salmon
 	database[162973]	= true	-- Greatfather Winter's Hearthstone
 	database[163045]	= true	-- Headless Horseman's Hearthstone
+	database[163073]	= true	-- Conch of Wa'mundi (Alliance)
 	database[163694]	= true	-- Scroll of Luxurious Recall
-	database[166559]	= true	-- Commander's Signet of Battle
-	database[166560]	= true	-- Captain's Signet of Command
 	database[165669]	= true	-- Lunar Elder's Hearthstone
 	database[165670]	= true	-- Peddlefeet's Lovely Hearthstone
 	database[165802]	= true	-- Noble Gardener's Hearthstone
+	database[166559]	= true	-- Commander's Signet of Battle
+	database[166560]	= true	-- Captain's Signet of Command
 	database[166746]	= true	-- Fire Eater's Hearthstone
 	database[166747]	= true	-- Brewfest Reveler's Hearthstone
 	database[167075]	= true	-- Ultrasafe Transporter: Mechagon
@@ -235,16 +248,18 @@ if isStandard then
 	database[168808]	= true	-- Wormhole Generator: Zandalar
 	database[168862]	= true	-- G.E.A.R. Tracking Beacon
 	database[168907]	= true	-- Holographic Digitalization Hearthstone
-	database[169064]	= true	-- Montebank's Colorful Cloak
+	database[169064]	= true	-- Mountebank's Colorful Cloak
 	database[169297]	= true	-- Stormpike Insignia
+	database[169298]	= true	-- Frostwolf Insignia
 	database[169862]	= true	-- Alluring Bloom
+	database[171151]	= true	-- Conch of Wa'mundi (Horde)
 	database[172179]	= true	-- Eternal Traveler's Hearthstone
 	database[172203]	= true	-- Cracked Hearthstone
 	database[172924]	= true	-- Wormhole Generator: Shadowlands
 	database[173373]	= true	-- Faol's Hearthstone
 	database[173430]	= true	-- Nexus Teleport Scroll
 	database[173528]	= true	-- Gilded Hearthstone
-	database[173532]	= true	-- Tirisfal Camp Scroll
+	database[173532]	= true	-- Elwynn Forest Scroll
 	database[173537]	= true	-- Glowing Hearthstone
 	database[173716]	= true	-- Mossy Hearthstone
 	database[180290]	= true	-- Night Fae Hearthstone
@@ -258,10 +273,15 @@ if isStandard then
 	database[184502]	= true	-- Attendant's Pocket Portal: Maldraxxus
 	database[184503]	= true	-- Attendant's Pocket Portal: Ardenweald
 	database[184504]	= true	-- Attendant's Pocket Portal: Oribos
+	database[188152]	= true	-- Gateway Control Shard
 	database[188952]	= true	-- Dominated Hearthstone
 	database[189827]	= true	-- Cartel Xy's Proof of Initiation
 	database[190196]	= true	-- Enlightened Hearthstone
 	database[190237]	= true	-- Broker Translocation Matrix
+	database[190742]	= true	-- Dimensional Enigmatic Footguards
+	database[190745]	= true	-- Dimensional Numerus Handguards
+	database[190748]	= true	-- Dimensional Cryptic Grips
+	database[190751]	= true	-- Dimensional Oracular Wrists
 	database[191029]	= true	-- Lilian's Hearthstone
 	database[193000]	= true	-- Ring-Bound Hourglass
 	database[193588]	= true	-- Timewalker's Hearthstone
@@ -276,7 +296,7 @@ if isStandard then
 	database[205456]	= true	-- Lost Dragonscale (1)
 	database[205458]	= true	-- Lost Dragonscale (2)
 	database[206195]	= true	-- Path of the Naaru
-	database[208704]	= true	-- Deeepdweller's Earthen Hearthstone
+	database[208704]	= true	-- Deepdweller's Earthen Hearthstone
 	database[209035]	= true	-- Hearthstone of the Flame
 	database[210455]	= true	-- Draenic Hologem
 	database[211788]	= true	-- Tess's Peacebloom
@@ -285,17 +305,13 @@ if isStandard then
 	database[221965]	= true	-- Prototype: Wormhole Generator: Khaz Algar
 	database[221966]	= true	-- Wormhole Generator: Khaz Algar
 	database[223988]	= true	-- Dalaran Hearthstone (1 charge quest item)
+	database[226107]	= true	-- Homebrewed Blink Vial
 	database[227669]	= true	-- Teleportation Scroll (1 charge quest item)
 	database[228940]	= true	-- Notorious Thread's Hearthstone
 	database[228996]	= true	-- Relic of Crystal Connections
 	database[230850]	= true	-- Delve-O Bot 7001
 	database[234389]	= true	-- Gallagio Loyalty Rewards Card: Silver
-	database[234390]	= true	-- Gallagio Loyalty Rewards Card: Gold
-	database[234391]	= true	-- Gallagio Loyalty Rewards Card: Platinum
-	database[234392]	= true	-- Gallagio Loyalty Rewards Card: Black
-	database[234393]	= true	-- Gallagio Loyalty Rewards Card: Diamond
-	database[234394]	= true	-- Gallagio Loyalty Rewards Card: Legendary
-	database[235016]	= true	-- Redepolyment Module
+	database[235016]	= true	-- Redeployment Module
 	database[236687]	= true	-- Explosive Hearthstone
 	database[238379]	= true	-- Warping Wise
 	database[238727]	= true	-- Nostwin's Voucher
@@ -304,7 +320,7 @@ if isStandard then
 	database[245970]	= true	-- P.O.S.T. Master's Express Hearthstone
 	database[246565]	= true	-- Cosmic Hearthstone
 	database[248131]	= true	-- Key to the Arcantina
-	database[248485]	= true	-- Wormhole Generator: Quel'thalas
+	database[248485]	= true	-- Wormhole Generator: Quel'Thalas
 	database[249230]	= true	-- Temple of Zin-Malor Scroll
 	database[249699]	= true	-- Shadowguard Translocator
 	database[250411]	= true	-- Timerunner's Hearthstone
@@ -312,8 +328,11 @@ if isStandard then
 	database[253629]	= true	-- Personal Key to the Arcantina
 	database[257736]	= true	-- Lightcalled Hearthstone
 	database[258736]	= true	-- Scroll of Town Portal: Masters' Perch
+	database[263489]	= true	-- Naaru's Enfold
 	database[263933]	= true	-- Preyseeker's Hearthstone
 	database[265100]	= true	-- Corewarden's Hearthstone
+	database[266370]	= true	-- Dundun's Abundant Travel Method
+	database[281615]	= true	-- Shadeweaver's Hearthstone
 end
 
 -- return data to main file
