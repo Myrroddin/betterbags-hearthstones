@@ -6,6 +6,8 @@ Copyright © 2024-2026 Paul Vandersypen, All Rights Reserved
 local _, addon = ...
 
 -- need to check game version
+local isSoD = (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC) and (C_Seasons and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery)
+local isForever = WOW_PROJECT_ID == WOW_PROJECT_CAMELOT
 local isBCC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 local isMists = WOW_PROJECT_ID == WOW_PROJECT_MISTS_CLASSIC
 local isStandard = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
@@ -14,6 +16,8 @@ local database = {}
 
 -- all game versions have these items
 database[6948]		= true	-- Hearthstone
+database[9173]		= true	-- Goblin Transponder
+database[17191] 	= true	-- Scepter of Celebras
 database[17690] 	= true	-- Frostwolf Insignia Rank 1
 database[17691] 	= true	-- Stormpike Insignia Rank 1
 database[17900] 	= true	-- Stormpike Insignia Rank 2
@@ -30,6 +34,7 @@ database[18149] 	= true	-- Rune of Recall (Frostwolf Keep)
 database[18150] 	= true	-- Rune of Recall (Dun Baldar)
 database[18984] 	= true	-- Dimensional Ripper - Everlook
 database[18986] 	= true	-- Ultrasafe Transporter - Gadgetzan
+database[21711] 	= true	-- Lunar Festival Invitation
 database[22589] 	= true	-- Atiesh, Greatstaff of the Guardian (Mage)
 database[22630] 	= true	-- Atiesh, Greatstaff of the Guardian (Warlock)
 database[22631] 	= true	-- Atiesh, Greatstaff of the Guardian (Priest)

@@ -8,6 +8,7 @@ Plugin module for the World of Warcraft AddOn [BetterBags](https://www.curseforg
 - The Burning Crusade Anniversary
 - Mists of Pandaria Classic
 - Mainline or retail. Currently, that is Midnight
+- WoW Forever
 
 ## Supported Items
 
