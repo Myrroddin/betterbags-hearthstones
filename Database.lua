@@ -40,11 +40,27 @@ database[22630] 	= true	-- Atiesh, Greatstaff of the Guardian (Warlock)
 database[22631] 	= true	-- Atiesh, Greatstaff of the Guardian (Priest)
 database[22632] 	= true	-- Atiesh, Greatstaff of the Guardian (Druid)
 
+-- add items unique to Season of Discovery
 if isSoD then
 	database[208425]	= true	-- Shiny Archaic Vestige
 	database[216494]	= true	-- Aragriar's Whimsical World Warper
+end
+
+-- add items shared by Season of Discovery and Forever
+if isSoD or isForever then
 	database[238734]	= true	-- Tinkerbox: Teleport
 	database[238781]	= true	-- Semisafe Transporter: New Avalon
+end
+
+-- add items unique to Forever
+if isForever then
+	database[213548]	= true	-- Scroll of Liminal Passage
+	database[241128]	= true	-- Pile of Portiporters
+	database[260819]	= true	-- EZ-Thro Field Transporter: Gadgetzan
+	database[260820]	= true	-- SAF-T Emergency Ripper: Everlook
+	database[260821]	= true	-- EZ and SAF Field Transporter: Mt. Hyjal
+	database[260823]	= true	-- Dimensional Transporter - Mt. Hyjal
+	database[260830]	= true	-- SAF-T Teleport
 end
 
 -- add items for Burning Crusade Classic, Mists Classic, and retail
