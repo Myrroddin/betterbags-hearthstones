@@ -8,7 +8,7 @@ local _, addon = ...
 -- need to check game version
 local isBCC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 local isMists = WOW_PROJECT_ID == WOW_PROJECT_MISTS_CLASSIC
-local isMainline = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
+local isStandard = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
 local database = {}
 
@@ -36,7 +36,7 @@ database[22631] 	= true	-- Atiesh, Greatstaff of the Guardian (Priest)
 database[22632] 	= true	-- Atiesh, Greatstaff of the Guardian (Druid)
 
 -- add items for Burning Crusade Classic, Mists Classic, and retail
-if isBCC or isMists or isMainline then
+if isBCC or isMists or isStandard then
 	database[28585] 	= true	-- Ruby Slippers
 	database[29796] 	= true	-- Socrethar's Teleportation Stone
 	database[30542] 	= true	-- Dimensional Ripper - Area 52
@@ -47,7 +47,7 @@ if isBCC or isMists or isMainline then
 end
 
 -- add items for Mists Classic and retail
-if isMists or isMainline then
+if isMists or isStandard then
 	database[37118] 	= true	-- Scroll of Recall
 	database[38685] 	= true	-- Teleport Scroll: Zul'Farrak
 	database[40582] 	= true	-- Scourgestone
@@ -111,7 +111,7 @@ if isMists or isMainline then
 end
 
 -- add everything else for mainline
-if isMainline then
+if isStandard then
 	-- delete these items, they were removed for Retail
 	database[184871]	= nil	-- Dark Portal (TBC)
 	database[199335]	= nil	-- Teleport Scroll: Menethil Harbor
