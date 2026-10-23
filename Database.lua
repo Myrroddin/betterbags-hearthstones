@@ -68,10 +68,12 @@ if isBCC or isMists or isStandard then
 	database[28585] 	= true	-- Ruby Slippers
 	database[29796] 	= true	-- Socrethar's Teleportation Stone
 	database[30542] 	= true	-- Dimensional Ripper - Area 52
-	database[30544] 	= true	-- Ultrasafe Transporter - Toshley's Station
+	database[30544] 	= true	-- Ultrasafe Transporter: Toshley's Station
+	database[30695] 	= true	-- Legion Teleporter Control
 	database[32757] 	= true	-- Blessed Medallion of Karabor
 	database[35230] 	= true	-- Darnarian's Scroll of Teleportation
 	database[37863] 	= true	-- Direbrew's Remote
+	database[184871]	= true	-- Dark Portal (TBC)
 end
 
 -- add items for Mists Classic and retail
@@ -126,7 +128,6 @@ if isMists or isStandard then
 	database[95567] 	= true	-- Kirin Tor Beacon
 	database[95568] 	= true	-- Sunreaver Beacon
 	database[103678]	= true	-- Time-Lost Artifact (trinket)
-	database[184871]	= true	-- Dark Portal (TBC)
 	database[199335]	= true	-- Teleport Scroll: Menethil Harbor
 	database[199336]	= true	-- Teleport Scroll: Stormwind Harbor
 	database[199777]	= true	-- Teleport Scroll: Orgrimmar Zepplin Tower (Borean Tundra)
