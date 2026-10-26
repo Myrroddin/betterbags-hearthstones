@@ -332,6 +332,7 @@ if isStandard then
 	database[263933]	= true	-- Preyseeker's Hearthstone
 	database[265100]	= true	-- Corewarden's Hearthstone
 	database[266370]	= true	-- Dundun's Abundant Travel Method
+	database[279550]	= true	-- Potion of Venomous Return
 	database[281615]	= true	-- Shadeweaver's Hearthstone
 end
 
